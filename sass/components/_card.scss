@@ -1,7 +1,6 @@
 .card {
 
     //FUNCTIONALITY
-
     perspective: 150rem;
     -moz-perspective: 150rem;
     position:relative;
@@ -14,6 +13,7 @@
         top: 0;
         left: 0;
         width:100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
